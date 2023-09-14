@@ -1,0 +1,50 @@
+{
+    "port": "${{ secrets.server_port }}",
+    "webhook": {
+        "url": "${{ secrets.webhook_url }}",
+        "icon_url_or_path": "",
+        "custom_name_or_addon_name": ""
+    },
+    "fields_names": {
+        "error": {
+            "embed": true,
+            "title": "Descrição do erro"
+        },
+        "stack": {
+            "embed": true,
+            "title": "Propagação do erro"
+        },
+        "realm": {
+            "embed": true,
+            "title": "Instância (client ou server)"
+        },
+        "addon": {
+            "embed": false,
+            "title": "Addon que gerou o erro"
+        },
+        "hash": {
+            "embed": true,
+            "title": "Hash CRC32 (error + stack + realm + addon)"
+        },
+        "gamemode": {
+            "embed": true,
+            "title": "Modo de jogo"
+        },
+        "gmv": {
+            "embed": true,
+            "title": "Versão do jogo"
+        },
+        "os": {
+            "embed": true,
+            "title": "Sistema operacional (Win|OSX|Linux)"
+        },
+        "ds": {
+            "embed": true,
+            "title": "Servidor dedicado ou local"
+        },
+        "v": {
+            "embed": false,
+            "title": "Versão do listener (sempre será 4)"
+        }
+    }
+}
