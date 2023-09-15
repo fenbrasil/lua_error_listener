@@ -1,7 +1,7 @@
 {
-    "port": "${{ secrets.server_port }}",
+    "port": 3000,
     "webhook": {
-        "url": "${{ secrets.webhook_url }}",
+        "url": "",
         "icon_url_or_path": "",
         "custom_name_or_addon_name": ""
     },
@@ -19,7 +19,7 @@
             "title": "Instância (client ou server)"
         },
         "addon": {
-            "embed": false,
+            "embed": true,
             "title": "Addon que gerou o erro"
         },
         "hash": {
