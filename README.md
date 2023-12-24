@@ -1,4 +1,4 @@
-# Backstabber Brasil - Garry's Mod Lua Error Listener for Discord
+# Garry's Mod Lua Error Listener for Discord
 
 --------------
 
